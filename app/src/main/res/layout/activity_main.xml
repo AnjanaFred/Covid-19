@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="423dp"
+        android:layout_height="842dp"
+        android:background="@color/colorwhite"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/who" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="99dp"
+            android:layout_gravity="center"
+            android:text="World Health Organization"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="30dp"
+            app:fontFamily="@font/alfa_slab_one" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:text="COVID - 19"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="30dp"
+            app:fontFamily="@font/alfa_slab_one" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="-10dp"
+            android:text="MOBI INFOR"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="30dp"
+            app:fontFamily="@font/alfa_slab_one" />
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/google" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="POWERED BY GOOGLE"
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="10dp"
+            app:fontFamily="@font/alfa_slab_one" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="53dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:text="Developed By AnjanaFred "
+            android:textAlignment="center"
+            android:textColor="@color/blue"
+            android:textSize="12dp"
+            app:fontFamily="@font/alfa_slab_one" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
